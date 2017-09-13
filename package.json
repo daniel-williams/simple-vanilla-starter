@@ -1,0 +1,20 @@
+{
+  "name": "design.news.redux",
+  "version": "1.0.0",
+  "description": "Saga Design News",
+  "scripts": {
+    "start": "live-server src/ --port 3000",
+    "start:server": "node server/server.js",
+    "live": "live-server server/server.js"
+  },
+  "bin": {
+    "live-server": "server/server.js"
+  },
+  "author": {
+    "name": "SAGA",
+    "email": "v-wildan@microsoft.com"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
